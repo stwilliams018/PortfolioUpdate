@@ -1,5 +1,5 @@
 .Name{
-    background-color: #4aaaa5;
+    background-color: black;
     color: white;
     padding-bottom: 5px;
     padding-top: 5px;
@@ -22,7 +22,7 @@ footer{
 }
 .Sides {
     background-image: url(gravel.png);
-    padding-top: 25em;   
+    padding-top: 30em;   
 }
 .SidesContact {
     background-image: url(gravel.png);
@@ -32,11 +32,11 @@ footer{
     background-image: url(gravel.png);
     padding-top: 30em;   
 }
-/*.pad_menu{
-    background: #e7f3f2
+.pad_menu{
+    background: #c2c4c3
 }
 .Body{
-    background-color: aliceblue
+    background-color: #c2c2c2
 }*/
 .no-gutters {
     margin-right: 0;
@@ -57,9 +57,28 @@ footer{
     line-height: 1.5
   }
   button{
-    background-color: #4aaaa5;
-    margin-top: 10px
-}
+        color: rgb(255, 255, 255);
+        font-size: 16px; 
+        line-height: 16px; 
+        padding: 6px; 
+        border-radius: 10px; 
+        font-family: Georgia, serif; 
+        font-weight: normal; 
+        text-decoration: none; 
+        font-style: normal; 
+        font-variant: normal; 
+        text-transform: none; 
+        background-image: linear-gradient(to right, rgb(171, 174, 175) 0%, rgb(149, 149, 150) 50%, rgb(94, 95, 95) 100%); 
+        box-shadow: rgb(0, 0, 0) 5px 5px 15px 5px; 
+        border: 2px solid rgb(17, 17, 17); 
+        display: inline-block;
+    }
+.Button:hover {
+        background: rgb(128, 130, 131); 
+    }
+.Button:active {
+        background: rgb(86, 87, 88); 
+    }
 
 input {
     width: 100%;
@@ -81,4 +100,12 @@ textarea {
     margin: 10px;
     padding: 5px;
     border: #666666 solid 2px
+}
+
+.mypic{
+    padding-right: 2px;
+    border: 1px solid black
+}
+.btn-group {
+    padding-right: 2px
 }
