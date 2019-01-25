@@ -1,0 +1,84 @@
+.Name{
+    background-color: #4aaaa5;
+    color: white;
+    padding-bottom: 5px;
+    padding-top: 5px;
+    text-align: center
+}
+.TopEmpty{
+    background-image: url(gravel.png);
+    border-top: 3px solid black
+}
+.BottomEmpty{
+    background-image: url(gravel.png);
+}
+img {
+    float: left
+}
+footer{
+    text-align: center;
+    background-color: #666666;
+    border-top: 5px solid #4aaaa5
+}
+.Sides {
+    background-image: url(gravel.png);
+    padding-top: 25em;   
+}
+.SidesContact {
+    background-image: url(gravel.png);
+    padding-top: 30em;   
+}
+.SidesPortfolio {
+    background-image: url(gravel.png);
+    padding-top: 30em;   
+}
+/*.pad_menu{
+    background: #e7f3f2
+}
+.Body{
+    background-color: aliceblue
+}*/
+.no-gutters {
+    margin-right: 0;
+    margin-left: 0;
+  
+    > .col,
+    > [class*="col-"] {
+      padding-right: 0;
+      padding-left: 0;
+    }
+  }
+  h3{
+      color: #4aaaa5;
+      border-bottom: 2px solid black
+  }
+  p{
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.5
+  }
+  button{
+    background-color: #4aaaa5;
+    margin-top: 10px
+}
+
+input {
+    width: 100%;
+}
+
+form{
+    width: 575px;
+    height: 275px
+}
+
+textarea {
+    width: 100%;
+}
+.ImageLayout{
+    float: left
+}
+.card{
+    float: right;
+    margin: 10px;
+    padding: 5px;
+    border: #666666 solid 2px
+}
