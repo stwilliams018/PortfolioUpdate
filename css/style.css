@@ -7,7 +7,8 @@
 }
 .TopEmpty{
     background-image: url(gravel.png);
-    border-top: 3px solid black
+    border-top: 3px solid black;
+    
 }
 .BottomEmpty{
     background-image: url(gravel.png);
@@ -22,7 +23,7 @@ footer{
 }
 .Sides {
     background-image: url(gravel.png);
-    padding-top: 30em;   
+    padding-top: 25em;   
 }
 .SidesContact {
     background-image: url(gravel.png);
@@ -37,8 +38,8 @@ footer{
 }
 .Body{
     background-color: #c2c2c2
-}*/
-.no-gutters {
+}
+/*.no-gutters {
     margin-right: 0;
     margin-left: 0;
   
@@ -47,9 +48,9 @@ footer{
       padding-right: 0;
       padding-left: 0;
     }
-  }
+  }*/
   h3{
-      color: #4aaaa5;
+      color: black;
       border-bottom: 2px solid black
   }
   p{
@@ -86,7 +87,8 @@ input {
 
 form{
     width: 575px;
-    height: 275px
+    height: 275px;
+    font
 }
 
 textarea {
